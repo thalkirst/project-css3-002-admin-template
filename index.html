@@ -9,6 +9,7 @@
     <meta name="author" content="Peter Bonyai">
     <title>Sample Dashboard</title>
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -20,67 +21,91 @@
         </div>
     </header>
     <main>
-        <aside>
-            <nav class="main__nav"></nav>
-            <ul class="nav_ul">
-                <li>
-                    <a href="">CORE</a>
-                </li>
-                <li>
-                    <i class="fa fa-tachometer"></i>
-                    <a href="">Dashboard</a>
-                </li>
-                <li>
-                    <a href="">INTERFACE</a>
-                </li>
-                <li>
-                    <i class="fa fa-windows"></i>
-                    <a href="">Layouts</a>
-                    <i class="fa fa-angle-right"></i>
-                </li>
-                <li>
-                    <i class="fa fa-bookmark"></i>
-                    <a href="">Pages</a>
-                    <i class="fa fa-angle-right"></i>
-                </li>
-                <li>
-                    <a href="">ADDONS</a>
-                </li>
-                <li>
-                    <i class="fa fa-area-chart"></i>
-                    <a href="">Charts</a>
-                </li>
-                <li>
-                    <i class="fa fa-table"></i>
-                    <a href="">Tables</a>
-                </li>
-            </ul>
-        </aside>
-        <section class="content">
-            <h1>Dashboard</h1>
-            <div class="main__breadcrumb">Dashboard
+        <div class="flex-container">
+            <aside class="main__aside">
+                <nav class="main__nav">
+                    <ul class="nav__ul">
+                        <li>
+                            <h4 class="nav__menu--main">CORE</h4>
+                        </li>
+                        <li class="nav__menu--sub">
+                            <i class="fa fa-tachometer"></i>
+                            <a href="">Dashboard</a>
+                        </li>
+                        <li>
+                            <h4 class="nav__menu--main">INTERFACE</h4>
+                        </li>
+                        <li class="nav__menu--sub">
+                            <i class="fa fa-windows"></i>
+                            <a href="">Layouts</a>
+                            <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="nav__menu--sub">
+                            <i class="fa fa-bookmark"></i>
+                            <a href="">Pages</a>
+                            <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li>
+                            <h4 class="nav__menu--main">ADDONS</h4>
+                        </li>
+                        <li class="nav__menu--sub">
+                            <i class="fa fa-area-chart"></i>
+                            <a href="">Charts</a>
+                        </li>
+                        <li class="nav__menu--sub">
+                            <i class="fa fa-table"></i>
+                            <a href="">Tables</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <section class="content">
+                <h1>Dashboard</h1>
+                <div class="main__breadcrumb">
+                    <p>Dashboard</p>
+                </div>
                 <div class="main__cards">
                     <div class="main__card" class="main__card--blue">
-                        <div class="card__top">Primary Card</div>
-                        <div class="card__bottom">View details<i class="fa fa-angle-right"></i></div>
+                        <div class="card__top">
+                            <p>Primary Card</p>
+                        </div>
+                        <div class="card__bottom">
+                            <p>View details</p>
+                            <i class="fa fa-angle-right"></i>
+                        </div>
                     </div>
                     <div class="main__card" class="main__card--yellow">
-                        <div class="card__top">Warning Card</div>
-                        <div class="card__bottom">View details<i class="fa fa-angle-right"></i></div>
+                        <div class="card__top">
+                            <p>Warning Card</p>
+                        </div>
+                        <div class="card__bottom">
+                            <p>View details</p>
+                            <i class="fa fa-angle-right"></i>
+                        </div>
                     </div>
                     <div class="main__card" class="main__card--green">
-                        <div class="card__top">Success Card</div>
-                        <div class="card__bottom">View details<i class="fa fa-angle-right"></i></div>
+                        <div class="card__top">
+                            <p>Success Card</p>
+                        </div>
+                        <div class="card__bottom">
+                            <p>View details</p>
+                            <i class="fa fa-angle-right"></i>
+                        </div>
                     </div>
                     <div class="main__card" class="main__card--red">
-                        <div class="card__top">Danger Card</div>
-                        <div class="card__bottom">View details<i class="fa fa-angle-right"></i></div>
+                        <div class="card__top">
+                        <p>Danger Card</p>
+                        </div>
+                        <div class="card__bottom">
+                            <p>View details</p>
+                            <i class="fa fa-angle-right"></i>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
-    </main>
 
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 
 </html>
