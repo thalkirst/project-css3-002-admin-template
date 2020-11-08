@@ -172,21 +172,43 @@ h1 {
     border-top: 1px solid grey;
 }
 
+
 .main__card--blue {
     background-color: rgb(0,123,255);
+    transition: background-color 0.3s;
 }
 
 .main__card--yellow {
     background-color: rgb(255,193,7);
+    transition: background-color 0.3s;
 }
 
 .main__card--green {
     background-color: rgb(40,167,69);
+    transition: background-color 0.3s;
 }
 
 .main__card--red {
     background-color: rgb(220,53,69);
+    transition: background-color 0.3s;
 }
+
+.main__card--red:hover {
+    background-color: rgba(220,53,69,0.8);
+}
+
+.main__card--green:hover {
+    background-color: rgba(40,167,69,0.8);
+}
+
+.main__card--yellow:hover {
+    background-color: rgba(255,193,7,0.8);
+}
+
+.main__card--blue:hover {
+    background-color: rgba(0,123,255,0.8);
+}
+
 
 .card__text {
     color: rgb(255, 255, 255);
