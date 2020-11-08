@@ -100,14 +100,11 @@ h4 {
 
 @media screen and (max-width: 700px) {
     .nav__menu--sub a {
-        text-decoration: none;
-        color: rgb(33,37,41);
-        text-align: left;
-        padding-left: 0.3em;
+        display: none;
     }
 
     .menu__details--more {
-        color: rgb(33,37,41);
+        display: none;
     }
 
 }
